@@ -1154,7 +1154,7 @@ break
             }
             break
             case 'setstatus': case 'setbiobot': case 'setbotbio': {
-            if (!text) throw `this is a WhatsApp Bot named Hisoka-Morou`
+            if (!text) throw `this is a WhatsApp Bot named Fin-bot`
             let name = await hisoka.updateProfileStatus(text)
             m.reply(`Successfully changed bot bio status to ${name}`)
             }
